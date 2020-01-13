@@ -12,16 +12,16 @@ while (userNumero >= 6 || userNumero == 0) {
 var cpu = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
 
 if (isEvenAdd(userNumero, cpu) && userPariDispari == 'pari') {
-    alert('NUMERO PARI! Hai vinto! [TUO_NUMERO=' + userNumero + ' | CPU=' + cpu + ']');
+    alert('TOTALE PARI! Hai vinto! [TUO_NUMERO=' + userNumero + ' | CPU=' + cpu + ']');
 }
 else if (isEvenAdd(userNumero, cpu) && userPariDispari == 'dispari') {
-    alert('NUMERO PARI! Non hai vinto, hai scelto DISPARI! [TUO_NUMERO=' + userNumero + ' | CPU=' + cpu + ']');
+    alert('TOTALE PARI! Non hai vinto, hai scelto DISPARI! [TUO_NUMERO=' + userNumero + ' | CPU=' + cpu + ']');
 }
 else if (isEvenAdd(userNumero, cpu) == false && userPariDispari == 'dispari') {
-    alert('NUMERO DISPARI! Hai vinto! [TUO_NUMERO=' + userNumero + ' | CPU=' + cpu + ']');
+    alert('TOTALE DISPARI! Hai vinto! [TUO_NUMERO=' + userNumero + ' | CPU=' + cpu + ']');
 }
 else if (isEvenAdd(userNumero, cpu) == false && userPariDispari == 'pari') {
-    alert('NUMERO DISPARI! Non hai vinto, hai scelto PARI! [TUO_NUMERO=' + userNumero + ' | CPU=' + cpu + ']');
+    alert('TOTALE DISPARI! Non hai vinto, hai scelto PARI! [TUO_NUMERO=' + userNumero + ' | CPU=' + cpu + ']');
 }
 
 //*****************************************
